@@ -1,0 +1,7 @@
+{
+    "holesPerLine":4
+    ,"qttTotalHoles": 16
+    ,"gameSpeed" : 800
+    ,"roundLenght" : 61
+    ,"screenMaxSize":800
+}

@@ -1,0 +1,24 @@
+#game{
+    cursor: crosshair;
+}
+
+.hole{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.mole{
+    background-image: url("../sprites/mole.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 85%;
+}
+
+#screen{
+    background-image: url("../sprites/background.png");
+    background-size: cover;
+}
