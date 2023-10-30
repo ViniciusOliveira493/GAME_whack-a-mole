@@ -1,14 +1,20 @@
+:root{
+    --bg-color:#8fe840;
+    --header-bg-color:#008803;
+    --header-color:#ffffff;
+}
 
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
-    background-color: aquamarine;
+    background-color: var(--bg-color);
 }
 
 header{
-    background-color: aqua;
+    background-color: var(--header-bg-color);
+    color: var(--header-color);
     padding: 20px 0;
 }
 
