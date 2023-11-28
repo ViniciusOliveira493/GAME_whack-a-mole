@@ -62,6 +62,7 @@ async function traduzir() {
 }
 
 async function buscarArquivo(lang) {
+    /*
     await 
         fetch("./src/lang/"+lang+".json")
             .then(response => response.json())
@@ -74,7 +75,14 @@ async function buscarArquivo(lang) {
                 .then(json => {
                     state.value.langFile = json;     
                 });
-        }); 
+        });
+    */
+
+    state.value.langFile = {
+        "menu_inst":"Instruções"
+        ,"menu_inst_1":"Clique na toupeira quando ela aparecer"
+        ,"menu_inst_2":"Se você errar a toupeira, ela fugirá para outro buraco"
+    }
 }
 
 function playBgMusic(){
